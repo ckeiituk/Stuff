@@ -1,0 +1,67 @@
+{
+  "id": "elfrey-chris-integration",
+  "title": "Интеграция с модулем Chris's Premades",
+  "description": "Быстрая и удобная настройка персонажам способностей из модуля Chris's Premades с русским переводом.",
+  "version": "1.2.6",
+  "library": "false",
+  "manifestPlusVersion": "1.2.0",
+  "compatibility": {
+    "minimum": 11,
+    "verified": 11,
+    "maximum": 12
+  },
+  "authors": [
+    {
+      "name": "Elfrey",
+      "url": "https://github.com/Elfrey/elfrey-chris-integration",
+      "discord": "elfrey"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.1.2",
+          "verified": "3.2.1"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "chris-premades",
+        "type": "module",
+        "compatibility": {
+          "minimum": "0.11.5",
+          "verified": "0.11.13"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "ru",
+      "name": "Russian",
+      "path": "language/ru.json"
+    }
+  ],
+  "url": "https://github.com/Elfrey/elfrey-chris-integration",
+  "manifest": "https://github.com/Elfrey/elfrey-chris-integration/releases/latest/download/module.json",
+  "download": "https://github.com/Elfrey/elfrey-chris-integration/releases/download/1.2.6/module.zip",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "protected": false,
+  "media": [
+    {
+      "type": "icon",
+      "url": ""
+    }
+  ]
+}
